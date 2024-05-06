@@ -28,18 +28,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "heart.fill")
-                .font(.largeTitle)
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Source Control!")
+        ZStack {
+            Color(.red).ignoresSafeArea()
             
-            Button("Click me") {
-                // To do
+            VStack(spacing: 8){
+                Image(systemName: "heart.fill")
+                    .font(.largeTitle)
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Source Control!")
+                    .foregroundStyle(.white)
+                
+                Button("Click me") {
+                    // To do
+                }
+                .font(.title2)
             }
+            .padding()
         }
-        .padding()
     }
 }
 
