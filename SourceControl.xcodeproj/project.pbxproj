@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6383CD0F2BE91D040018355A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383CD0E2BE91D040018355A /* HomeView.swift */; };
 		639A14AC2BE4D1920041F436 /* SourceControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A14AB2BE4D1920041F436 /* SourceControlApp.swift */; };
 		639A14AE2BE4D1920041F436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A14AD2BE4D1920041F436 /* ContentView.swift */; };
 		639A14B02BE4D1930041F436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639A14AF2BE4D1930041F436 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6383CD0E2BE91D040018355A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		639A14A82BE4D1920041F436 /* SourceControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourceControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639A14AB2BE4D1920041F436 /* SourceControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceControlApp.swift; sourceTree = "<group>"; };
 		639A14AD2BE4D1920041F436 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				639A14AB2BE4D1920041F436 /* SourceControlApp.swift */,
 				639A14AD2BE4D1920041F436 /* ContentView.swift */,
+				6383CD0E2BE91D040018355A /* HomeView.swift */,
 				639A14AF2BE4D1930041F436 /* Assets.xcassets */,
 				639A14B12BE4D1930041F436 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6383CD0F2BE91D040018355A /* HomeView.swift in Sources */,
 				639A14AE2BE4D1920041F436 /* ContentView.swift in Sources */,
 				639A14AC2BE4D1920041F436 /* SourceControlApp.swift in Sources */,
 			);
