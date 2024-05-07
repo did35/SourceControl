@@ -10,6 +10,8 @@
  Commit = Save ("checkpoint") on our current branch
  Stage = Prepare change for a commit
  Stash = Save changes for later use
+ Push = Send local commits to remote repo
+ Pull = Fetch remote commits to local repo
  
  COMMIT MESSAGES
  
