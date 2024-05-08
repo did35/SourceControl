@@ -46,7 +46,7 @@ struct ContentView: View {
                 Text("Source Control!")
                     .foregroundStyle(.white)
                 
-                Button("Subscribe") {
+                Button("Subscribe now!") {
                     // To do
                 }
                 .font(.title2)
