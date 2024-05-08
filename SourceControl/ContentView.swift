@@ -43,7 +43,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .imageScale(.large)
                     .foregroundStyle(.tint)
-                Text("Source Control!")
+                Text("Branching!")
                     .foregroundStyle(.white)
                 
                 Button("Subscribe now!") {
